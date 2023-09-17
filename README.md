@@ -41,7 +41,7 @@ LuisAPIHostName="Your LUIS App region here (i.e: westus.api.cognitive.microsoft.
 - Install modules
 
     ```bash
-    npm install
+    npm run watch
     ```
 - Setup LUIS
 
