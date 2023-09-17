@@ -1,0 +1,86 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "FlightReservation",
+        "reservationId": "RXJ34P",
+        "reservationStatus": "http://schema.org/ReservationConfirmed",
+        "passengerPriorityStatus": "Fast Track",
+        "passengerSequenceNumber": "ABC123",
+        "securityScreening": "TSA PreCheck",
+        "underName": {
+            "@type": "Person",
+            "name": "Eva Green"
+        },
+        "reservationFor": {
+            "@type": "Flight",
+            "flightNumber": "UA110",
+            "provider": {
+                "@type": "Airline",
+                "name": "Continental",
+                "iataCode": "CO",
+                "boardingPolicy": "http://schema.org/ZoneBoardingPolicy"
+            },
+            "seller": {
+                "@type": "Airline",
+                "name": "United",
+                "iataCode": "UA"
+            },
+            "departureAirport": {
+                "@type": "Airport",
+                "name": "San Francisco Airport",
+                "city": "San Francisco",
+                "iataCode": "SFO"
+            },
+            "departureTime": "2017-03-04T20:15:00-08:00",
+            "arrivalAirport": {
+                "@type": "Airport",
+                "name": "John F. Kennedy International Airport",
+                "city": "New York",
+                "iataCode": "JFK"
+            },
+            "arrivalTime": "2017-03-05T06:30:00-05:00"
+        }
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "FlightReservation",
+        "reservationId": "ABC123",
+        "reservationStatus": "http://schema.org/ReservationConfirmed",
+        "passengerPriorityStatus": "Priority Boarding",
+        "passengerSequenceNumber": "XYZ789",
+        "securityScreening": "Standard Screening",
+        "underName": {
+            "@type": "Person",
+            "name": "John Smith"
+        },
+        "reservationFor": {
+            "@type": "Flight",
+            "flightNumber": "DL202",
+            "provider": {
+                "@type": "Airline",
+                "name": "Delta",
+                "iataCode": "DL",
+                "boardingPolicy": "http://schema.org/ZoneBoardingPolicy"
+            },
+            "seller": {
+                "@type": "Airline",
+                "name": "Delta",
+                "iataCode": "DL"
+            },
+            "departureAirport": {
+                "@type": "Airport",
+                "name": "Los Angeles International Airport",
+                "city": "Los Angeles",
+                "iataCode": "LAX"
+            },
+            "departureTime": "2023-09-15T08:45:00-07:00",
+            "arrivalAirport": {
+                "@type": "Airport",
+                "name": "Hartsfield-Jackson Atlanta International Airport",
+                "city": "Atlanta",
+                "iataCode": "ATL"
+            },
+            "arrivalTime": "2023-09-15T16:30:00-04:00"
+        }
+    }
+]
